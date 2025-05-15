@@ -11,4 +11,4 @@
 #SBATCH --partition=gpu-homayoun
 #SBATCH --gres=gpu:1
 hostname
-srun python -u train.py
+srun python -u test.py
